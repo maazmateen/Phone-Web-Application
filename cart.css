@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.card{
+    width: 45%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.increement{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 1px solid transparent;
+}
+.decreement{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 1px solid transparent;
+}
+#quantity-Value{
+    font-size: 2rem;
+}
+.Total{
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 1px solid transparent;
+}
+.amount{
+    color: white;
+    display: inline;
+}
+.pricetag{
+    padding: 15px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.delete{
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;  
+}
+.deleted{
+    display: flex;
+    justify-content: center;
+}
