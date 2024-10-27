@@ -16,9 +16,9 @@ convert.map((iteration, index) => {
         <h3>Rom :${iteration.rom}</h3>
         
         <h3>Quantity : 
-            <button onclick="decreement(${index})" class="increement">-</button>
+            <button onclick="decreement(${index})" class="increement"> - </button>
             <span id="quantity-Value${index}">1</span>
-            <button onclick="increement(${index})" class="decreement">+</button>
+            <button onclick="increement(${index})" class="decreement"> + </button>
         </h3>
         <div class="deleted"><button onclick="deleted(${index})" class="delete">Delete</button></div>
     </div>
